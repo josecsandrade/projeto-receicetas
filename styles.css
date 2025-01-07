@@ -20,8 +20,9 @@ font-family: "ALice";
 }
 
 body {
-    background: var(--background-color);
-
+    background-image: url(assets/images/bg-image.png);
+    background-size: cover;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,10 +50,13 @@ img{
 }
 
 .content{
-   
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin: 24px;
     color: var(--text-color-secundary);
     text-align: justify;
+
 
 }
 
@@ -68,6 +72,12 @@ h2{
     font-size: 24px;
     color: var(--text-color-primary);
     text-align: justify;
+
+    &:hover{
+        color: black;
+        text-transform: uppercase;
+        
+    }
     
 }
 
@@ -75,17 +85,30 @@ p{
     display: inline-flex;
     font-size: 16px;
     text-align: justify;
-    
-    
-}
 
-#recipe{
-    padding: 10px;
+    &:hover{
+        text-decoration: underline;
+        color: black;
+
+        
+    }
+    
 }
 
 footer{
-    display: inline-block;
+    display: flex;
+
     color: var(--text-color-on-bg);
     font-size: 16px;
+}
 
+li{
+    margin: 0px;
+    
+    &:hover{
+        text-decoration: underline;
+        color: black;
+        text-transform: uppercase;
+        
+    }
 }
