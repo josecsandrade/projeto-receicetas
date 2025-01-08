@@ -23,10 +23,9 @@ body {
     background-image: url(assets/images/bg-image.png);
     background-size: cover;
     background-color: var(--background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    
+    justify-items: center;
+  
 }
 
 img{
@@ -37,15 +36,20 @@ img{
 }
 
 .container{
-    display: inline;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background: var(--surface-color);
+  
     margin: 24px;
-    border-radius: 10px;
+    border-radius: 30px;
 
-    height: 80rem;
+   
     width: 50rem;
+    height: 80rem;
+
+    margin-top: 48px;
+    
   
 }
 
@@ -53,10 +57,10 @@ img{
     display: inline-block;
     justify-content: center;
     align-items: center;
+
     margin: 24px;
     color: var(--text-color-secundary);
     text-align: justify;
-
 
 }
 
@@ -64,8 +68,7 @@ h1{
     font-size: 40px;
     color: var(--text-color-primary);
     text-align: justify;
-     
-
+  
 }
 
 h2{
@@ -95,13 +98,6 @@ p{
     
 }
 
-footer{
-    display: flex;
-
-    color: var(--text-color-on-bg);
-    font-size: 16px;
-}
-
 li{
     margin: 0px;
     
@@ -111,4 +107,22 @@ li{
         text-transform: uppercase;
         
     }
+}
+
+footer{
+    color: var(--text-color-on-bg);
+    font-size: 16px;
+
+}
+
+footer span{
+    margin: 0 1rem;
+   
+}
+
+footer img{
+    vertical-align: middle;
+    height: 16px;
+    padding-bottom: 2px;
+   
 }
