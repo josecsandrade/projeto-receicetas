@@ -23,9 +23,9 @@ body {
     background-image: url(assets/images/bg-image.png);
     background-size: cover;
     background-color: var(--background-color);
-    
-    justify-items: center;
-  
+
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -109,22 +109,3 @@ li{
     }
 }
 
-footer{
-    color: var(--text-color-on-bg);
-    font-size: 16px;
-
-    border: 3px solid blanchedalmond;
-
-}
-
-footer span{
-    margin: 0 1rem;
-   
-}
-
-footer img{
-    vertical-align: middle;
-    height: 16px;
-    padding-bottom: 2px;
-   
-}
