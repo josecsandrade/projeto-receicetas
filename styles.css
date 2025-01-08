@@ -113,6 +113,8 @@ footer{
     color: var(--text-color-on-bg);
     font-size: 16px;
 
+    border: 3px solid blanchedalmond;
+
 }
 
 footer span{
